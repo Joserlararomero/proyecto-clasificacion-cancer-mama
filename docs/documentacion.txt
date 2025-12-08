@@ -1,0 +1,32 @@
+Para crear un entorno virtual ejecutamos el comando:
+
+python -m venv .venv
+
+Para activar el entorno:
+
+vamos al panel de exploracion, ruta a la carpera .venv/Scripts/activate.
+
+copiamos la ruta de acceso, y la pegamos en la termenal.
+
+deberia de aparecer en la terminal (.venv), indicando que ya estamos dentro del entorno virtual.
+
+luego:
+
+install -r requirements.txt
+
+---------------------------------------------------------------------------------------------------------------
+En un terminal nuevo podemos ejecutar el siguiente comando para instalar librerias.
+
+pip install matplotlib seaborn scikit-learn
+
+---------------------------------------------------------------------------------------------------------------
+Algoritmo de regresión: Predice un valor continuo.
+Algoritmo de clasificación binario: Clasifica en si o no (1 o 0).
+
+---------------------------------------------------------------------------------------------------------------
+
+Crear el archivo .gitignore en la raiz
+
+git init
+git add .
+git commit -m "Primer commit - estructura base del proyecto"
