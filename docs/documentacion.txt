@@ -30,3 +30,9 @@ Crear el archivo .gitignore en la raiz
 git init
 git add .
 git commit -m "Primer commit - estructura base del proyecto"
+
+git remote add origin https://github.com/Joserlararomero/proyecto-clasificacion-cancer-mama.git
+git branch -M main
+git push -u origin main
+
+https://markdownlivepreview.com/
