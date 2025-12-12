@@ -42,3 +42,9 @@ git status
 git add .
 git commit -m "Agregando el README + docs"
 git push origin main
+
+---------------------------------------------------------------------------------------------------------------
+git checkout -b feature/eda
+git branch
+git add .
+git commit -m "Agregar nueva linea en nueva rama"
